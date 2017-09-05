@@ -1,0 +1,22 @@
+// WP CSS - Page Listings.
+.pagenav {}
+.page_item {}
+.current_page_item {}
+.current_page_parent {}
+.current_page_ancestor {}
+
+.pagenav ul,
+.pagenav .current_page_item ul,
+.pagenav .current_page_ancestor ul,
+.pagenav .current_page_ancestor .current_page_item ul,
+.pagenav .current_page_ancestor .current_page_ancestor ul,
+.pagenav .current_page_ancestor .current_page_ancestor .current_page_item ul,
+.pagenav .current_page_ancestor .current_page_ancestor .current_page_ancestor ul {}
+
+.pagenav  ul ul,
+.pagenav .current_page_item ul ul,
+.pagenav .current_page_ancestor ul ul,
+.pagenav .current_page_ancestor .current_page_item ul ul,
+.pagenav .current_page_ancestor .current_page_ancestor ul ul {}
+.pagenav .current_page_ancestor .current_page_ancestor .current_page_item ul ul,
+.pagenav .current_page_ancestor .current_page_ancestor .current_page_ancestor ul ul {}

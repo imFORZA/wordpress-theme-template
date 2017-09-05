@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor-style.scss"],"names":[],"mappings":"AAEA,SACI,QAAA","file":"editor-style.css","sourcesContent":["// WordPress Editor.\n\n#tinymce {\n    padding: 15px !important;\n}\n"]}

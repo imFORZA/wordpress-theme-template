@@ -1,0 +1,85 @@
+/* Break Word Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
+/* WordPress - Default Body Classes
+-------------------------------------------------------------- */
+
+/*
+.rtl {}
+.home {}
+.blog {}
+.archive {}
+.date {}
+.search {}
+.paged {}
+.attachment {}
+.error404 {}
+.author {}
+.category {}
+.tag {}
+.page-parent {}
+.search-results {}
+.search-no-results {}
+.logged-in {}
+
+.single postid-(id) {}
+.attachmentid-(id) {}
+.attachment-(mime-type) {}
+.author-(user_nicename) {}
+.category-(slug) {}
+.tag-(slug) {}
+.page-child parent-pageid-(id) {}
+.page-template page-template-(template file name) {}
+.paged-(page number) {}
+.single-paged-(page number) {}
+.page-paged-(page number) {}
+.category-paged-(page number) {}
+.tag-paged-(page number) {}
+.date-paged-(page number) {}
+.author-paged-(page number) {}
+.search-paged-(page number) {}
+*/
+
+
+/* WordPress - Default Post Styles
+-------------------------------------------------------------- */
+
+/*
+.post-id {}
+.post {}
+.page {}
+.attachment {}
+.sticky {}
+.hentry {}
+.category-misc {}
+.category-example {}
+.tag-news {}
+.tag-wordpress {}
+.tag-markup {}
+
+.format-image {}
+.format-gallery {}
+.format-chat {}
+.format-link {}
+.format-quote {}
+.format-status {}
+.format-video {}
+
+*/

@@ -1,0 +1,69 @@
+/*!-----------------------------------------------------------------------------------
+	Theme Name: %%NAME%%
+	Theme URI: %%URI%%
+	Description: %%DESCRIPTION%%
+	Author: %%AUTHOR%%
+	Author URI: %%AUTHOR_URI%%
+	Text Domain: %%TEXTDOMAIN%%
+	License: GNU General Public License version 3.0
+	License URI: https://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0.0
+	Tags:
+-----------------------------------------------------------------------------------
+*/
+
+
+/*--------------------------------------------------------------
+BASE
+--------------------------------------------------------------*/
+@import 'base/_reset.scss';
+@import 'base/_typography.scss';
+
+/*--------------------------------------------------------------
+COMPONENTS
+--------------------------------------------------------------*/
+@import 'components/_blockquotes.scss';
+@import 'components/_breadcrumbs.scss';
+@import 'components/_buttons.scss';
+@import 'components/_captions.scss';
+@import 'components/_comments.scss';
+@import 'components/_images.scss';
+@import 'components/_navigation.scss';
+@import 'components/_pagenav.scss';
+@import 'components/_widgets.scss';
+
+/*--------------------------------------------------------------
+HELPERS
+--------------------------------------------------------------*/
+@import 'helpers/_helpers.scss';
+@import 'helpers/_mixins.scss';
+@import 'helpers/_variables.scss';
+
+/*--------------------------------------------------------------
+LAYOUTS
+--------------------------------------------------------------*/
+@import 'layout/_footer.scss';
+@import 'layout/_header.scss';
+@import 'layout/_grid.scss';
+@import 'layout/_sidebar.scss';
+
+/*--------------------------------------------------------------
+PAGES
+--------------------------------------------------------------*/
+@import 'pages/_frontpage.scss';
+@import 'pages/_single.scss';
+
+/*--------------------------------------------------------------
+PLUGINS
+--------------------------------------------------------------*/
+@import 'plugins/_gravityforms.scss';
+@import 'plugins/_idxbroker.scss';
+@import 'plugins/_jetpack.scss';
+@import 'plugins/_soliloquy.scss';
+@import 'plugins/_wordpress-seo.scss';
+@import 'plugins/_wp-listings.scss';
+
+/*--------------------------------------------------------------
+VENDORS
+--------------------------------------------------------------*/
+@import 'vendors/_fontawesome.scss';

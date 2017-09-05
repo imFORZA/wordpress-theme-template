@@ -1,0 +1,50 @@
+// Custom Background.
+body.login {
+}
+
+// Custom Login Button.
+#wp-submit {
+}
+
+#wp-submit:hover {
+}
+
+// Input Focus.
+input[type=checkbox]:focus,
+input[type=color]:focus,
+input[type=date]:focus,
+input[type=datetime-local]:focus,
+input[type=datetime]:focus,
+input[type=email]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=radio]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus,
+select:focus,
+textarea:focus {
+}
+
+// Custom Links.
+.login #nav a,
+.login #backtoblog a {
+}
+
+.login #nav a:hover,
+.login #backtoblog a:hover {
+}
+
+// Login Logo must be 320 x 90px, this is due to the pop-up for inactive logins:
+// https: //www.evernote.com/shard/s1/sh/ec3ec068-23a4-4243-b303-a5b300a2f06d/31b66fd422b540a1bb27b3a1805a73d2
+#login h1 a {
+  background: url('../images/login-logo.png') no-repeat;
+  max-width:  320px;
+  width: 320px;
+  min-height: 90px;
+  height: auto;
+}
