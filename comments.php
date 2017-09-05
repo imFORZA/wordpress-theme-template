@@ -14,4 +14,4 @@ wp_list_comments(); ?>
 	<?php comments_template(); ?>
 
 
-<?php paginate_comments_links(); ?>
+<?php paginate_comments_links();

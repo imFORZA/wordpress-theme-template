@@ -43,7 +43,7 @@ if ( ! function_exists( 'wp_tpl_setup' ) ) {
 		add_theme_support( 'automatic-feed-links' );
 
 		// Add theme support for Translation.
-		load_theme_textdomain( '%%TEXTDOMAIN%%', get_template_directory().'/languages' );
+		load_theme_textdomain( '%%TEXTDOMAIN%%', get_template_directory() . '/languages' );
 
 		// Let WordPress Manage Title Tags.
 		add_theme_support( 'title-tag' );

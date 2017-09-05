@@ -49,15 +49,15 @@ wp_list_pages(
 // Add categories you'd like to exclude in the exclude here.
 $cats = get_categories( 'exclude=' );
 foreach ( $cats as $cat ) {
-	echo '<li><h3>'. esc_attr( $cat->cat_name ).'</h3>';
+	echo '<li><h3>' . esc_attr( $cat->cat_name ) . '</h3>';
 	echo '<ul>';
-	query_posts( 'posts_per_page=-1&cat='.$cat->cat_ID );
+	query_posts( 'posts_per_page=-1&cat=' . $cat->cat_ID );
 	while ( have_posts() ) {
 		the_post();
 		$category = get_the_category();
 		// Only display a post link once, even if it's in multiple categories.
 		if ( $category[0]->cat_ID === $cat->cat_ID ) {
-			echo '<li><a href="'. esc_url( get_permalink() ).'">'.get_the_title().'</a></li>';
+			echo '<li><a href="' . esc_url( get_permalink() ) . '">' . get_the_title() . '</a></li>';
 		}
 	}
 	echo '</ul>';
@@ -75,13 +75,13 @@ foreach ( get_post_types( array( 'public' => true ) ) as $post_type ) {
 
 	$pt = get_post_type_object( $post_type );
 
-	echo '<h2>'. esc_attr( $pt->labels->name ) .'</h2>';
+	echo '<h2>' . esc_attr( $pt->labels->name ) . '</h2>';
 	echo '<ul>';
 
-	query_posts( 'post_type='.$post_type.'&posts_per_page=-1' );
+	query_posts( 'post_type=' . $post_type . '&posts_per_page=-1' );
 	while ( have_posts() ) {
 		the_post();
-		echo '<li><a href="'. esc_url( get_permalink() ).'">'.get_the_title().'</a></li>';
+		echo '<li><a href="' . esc_url( get_permalink() ) . '">' . get_the_title() . '</a></li>';
 	}
 
 	echo '</ul>';

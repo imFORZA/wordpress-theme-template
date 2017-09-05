@@ -64,7 +64,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 			* menu item. To prevent errors we use the strcasecmp() function to so a
 			* comparison that is not case sensitive. The strcasecmp() function returns
 			* a 0 if the strings are equal.
-		 	*/
+			 */
 			if ( 0 === strcasecmp( $item->attr_title, 'divider' ) && 1 === $depth ) {
 				$output .= $indent . '<li role="presentation" class="divider">';
 			} elseif ( 0 === strcasecmp( $item->title, 'divider' ) && 1 === $depth ) {
@@ -88,9 +88,9 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 				$output .= $indent . '<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"' . $id . $value . $class_names . '>';
 				$atts = array();
 				if ( empty( $item->attr_title ) ) {
-		  			$atts['title']  = ! empty( $item->title )   ? strip_tags( $item->title ) : '';
+					  $atts['title']  = ! empty( $item->title )   ? strip_tags( $item->title ) : '';
 				} else {
-		  			$atts['title'] = $item->attr_title;
+					  $atts['title'] = $item->attr_title;
 				}
 				$atts['target'] = ! empty( $item->target )	? $item->target	: '';
 				$atts['rel']    = ! empty( $item->xfn )		? $item->xfn	: '';

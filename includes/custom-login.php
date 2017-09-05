@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
  */
 function wp_tpl_custom_login() {
 
-	wp_register_style( 'custom-login', get_template_directory_uri().'/assets/css/custom-login.css', true, 'all' );
+	wp_register_style( 'custom-login', get_template_directory_uri() . '/assets/css/custom-login.css', true, 'all' );
 	wp_enqueue_style( 'custom-login' );
 	remove_filter( 'wp_admin_css', 'wp_admin_css' );
 
